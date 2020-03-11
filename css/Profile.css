@@ -1,0 +1,51 @@
+/*import Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+.fieldset {
+	width: 800px;
+	padding: 10px;
+	margin-top: 1%;
+	margin-left: 23.5%;
+	border: 1px solid #80ced7;
+	border-radius: 5px;
+	font-size: 1em;
+	font-family: 'Lora', serif;
+	z-index: 999999;
+}
+
+.fieldset .legend {
+	text-align: center;
+}
+
+.fieldset .legend a {
+	margin-left: 20px;
+}
+
+.fieldset input[name=submit] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	
+}
+
+
+.fieldset input[name=delete] {
+  background-color: #F44336;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	
+}

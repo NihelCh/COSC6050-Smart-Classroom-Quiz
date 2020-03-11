@@ -1,0 +1,50 @@
+#container{
+    width:60%;
+    background-color:#F8F8FF;
+    margin:20px auto;
+    overflow: auto;
+    padding:25px;	
+}
+h1, h2{
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+h2{
+    color:DarkRed;
+}
+section{
+    min-height:400px;
+}
+input[type='submit']{
+    background-color: #4CAF50;
+    border:0;
+    color:#fff;
+    padding: 10px 15px;
+    cursor:pointer;
+    float: left;
+}
+input {
+    vertical-align: middle;
+}
+
+#results ol {
+    margin: 0 0 10px 20px;
+}
+
+#results ol li {
+    margin: 0 0 20px 0;
+}
+
+#results ol li div {
+    padding: 4px 0;
+}
+#results h3{
+    margin: 0 0 1px 0;
+    font-size: 17px;
+    color:#003366;
+}
+#results span{
+    color:#000;
+    font-weight:bold;
+}

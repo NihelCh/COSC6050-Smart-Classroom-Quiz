@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<!-- Head -->
+<head>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/dropdowns.css">
+<script src="js/dropdown.js"></script>
+<title> MarQuiz</title>
+</head>
+
+<!-- Body -->
+<body>
+	<!-- Enclosing container -->
+	<div id=container>
+		<!-- Top Navigation: Used for any page -->
+		<div class="topnav">
+			<h1 style="margin-left: 38%;" >Welcome to MarQuiz!</h1>
+					
+			<!-- Menu Button -->
+			<div class="dropdown" style="float:right;">
+			  <button class="dropbtn" id="menu-button"></button>
+			  <div id="myDropdown" class="dropdown-content">
+				<a href="#Profile">My Profile</a>
+				<a href="#Settings">Settings</a>
+				<a href="#Logout">Logout</a>
+			  </div>
+			</div>
+			<!-- Add Button -->
+			<div class="dropdown" style="float:right">
+			  <button class="dropbtn" id="add-button"></button>
+			  <div id="myDropdown" class="dropdown-content">
+				<a href="#NewClass">Create a Class</a> <!-- Teachers only -->
+				<a href="#NewQuiz">Create a Quiz</a>  <!-- Teachers only -->
+				<a href="#JoinClass">Join a Class</a> <!-- Students only -->
+			  </div>
+			</div>
+			<a href="#home" target="_self" style="float: right;"> <img src="images/home-icon.png" width="40px"> </a>
+		</div>
+		
+		<!-- Page specific HTML here -->
+		<div id="main">
+		</div>
+		
+		<!-- Footer: Used for any page -->
+		<div id="footer">
+			<p> MarQuiz </p>
+		</div>
+	</div>
+</body>
+</html>

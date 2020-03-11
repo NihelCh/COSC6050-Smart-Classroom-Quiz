@@ -1,0 +1,252 @@
+*{
+	
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  -ms-overflow-style: none; 
+  
+}
+
+body {
+	padding: 0px;
+	margin:0px;
+	background: #f3f5f9;
+	font-family: 'Lora', serif;
+	position: relative;
+	overflow: auto;
+}
+
+header{
+	background: #003366;
+	background-image: linear-gradient(-90deg, #003366, #548dc4);
+	height: 66px;
+}
+
+header * {
+	color:#FFCC00;	
+}
+header .logo{
+	float: left;
+	height:inherit;
+	margin-left: 2.2em;
+		
+}
+
+header .class_name{
+	height:inherit;
+	padding: 0px;	
+    margin-left: 170px;	
+	position: relative;
+	color: #E6E6FA;
+    font-family: 'Candal', serif;	
+}
+
+header .logo-text{
+	margin: 12px;
+	font-family: 'Candal', serif;
+	
+}
+
+header ul{
+	float:right;
+	padding: 0px;
+	margin:0px;	
+	list-style: none;
+}
+
+header ul li {
+	float:left;
+	position: relative;
+}
+
+
+header ul li:hover ul{
+	display:block;
+	
+}
+
+header ul li ul{
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	width:138px;
+	display:none;
+	
+}
+
+header ul li ul li{
+	width:100%;
+	
+}
+
+header ul li ul li a{
+	padding:8px;
+	background:white;
+	color: #444;
+	
+}
+header ul li ul li a:hover{
+	background: #d5d6d6;
+	
+}
+
+
+header ul li a{
+	display:block;
+	padding: 22.3px;
+	font-size: 0.96em;
+	text-decoration: none;
+}
+
+header ul li a:hover{
+	background: #548dc4;
+	transition: 0.5s;
+}
+
+header .menu-toggle{
+	display:none;
+}
+
+/*popup*/
+/* The Modal (background) */
+.modal {
+	display:none;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 200px;
+    margin-left: -150px;
+    margin-top: -200px;
+    text-align: center;
+  
+    /* needed styles for the overlay */
+    z-index: 10; /* keep on top of other elements on the page */
+    outline: 9999px solid rgba(0,0,0,0.5);
+	
+  }
+  
+ /* Create Quiz Modal */
+ #addQuizModal {
+	 position: fixed;
+	 left: 45%;
+	 width: auto;
+	 height: 500px;
+	 max-height: 500px;
+	 overflow: auto;
+	transform: translate(0%, -25%);
+ }
+
+ 
+ #addQuizModal .form-container {
+	 height: 100%;
+	 overflow: auto;
+	 margin-bottom: 10px;
+ }
+  
+/* rest of the page shouldn't scroll while modal is open */
+body .modal-open {
+  overflow: hidden;
+  position:fixed; 
+}
+
+  /* Add styles to the form container */
+.form-container {
+	max-width: 1000%;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+	position: relative;
+	border-radius: 4px;
+	max-height: calc(100vh - 210px);
+    overflow-y: auto;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text]{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	color: black;
+  }
+
+  .form-container textarea{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	color: black;
+  }
+
+
+.form-container p{
+	color: black;
+	padding: 15px;
+  }
+
+.form-container select, option{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	color: black;
+  }
+
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, textarea:focus{
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+	background-color:blue;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	border-radius: 12px;
+	display: inline;
+  }
+  
+  /* Cancel button */
+  .form-container .cancel {
+	background-color:gray;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+  }
+  
+ /* for scrolling */
+  .wrapper {
+	  height: 100%;
+	  overflow: auto;
+  }
+  
+  .container {
+	  overflow: auto;
+  }
+  
+  .sidebar {
+	  overflow: auto;
+  }
+  
+ /* Make scrollbars invisible */
+ .element { 
+	overflow: -moz-scrollbars-none;
+}
+ 
+ ::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+  

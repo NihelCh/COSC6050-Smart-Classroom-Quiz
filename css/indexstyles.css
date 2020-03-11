@@ -1,0 +1,28 @@
+body{
+	background-color: #00BFFF;
+}
+div h1 {
+	color: blue;
+	background-color: #D7DF01;
+	box-shadow: 0px 2px 2px 0px gray;
+	font-size: 300%;
+	text-align:center;
+	font-family: Trebuchet;
+}
+div img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bottom-container{
+	position: absolute;
+	top: 50%;
+	left: 42.5%;
+	text-align:center;
+	margin: auto;
+	width: 10%;
+	border: 3px solid blue;
+	padding: 40px;
+	color: black;
+	font-family: Trebuchet;
+}

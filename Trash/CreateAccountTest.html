@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<form method="post" action="php/registrationtest.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up for a MarQuiz Account</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="First Name" name="fname" required><br>
+    
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="Last Name" name="lname" required><br>
+    
+    <label for="userID"><b>User ID</b></label>
+    <input type="text" placeholder="User ID" name="userID" required><br>
+    
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Username" name="username" required><br>    
+    
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required><br>
+
+    <label  for="psw"> <b>Password </b></label>
+    <input  type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label><br>
+    
+    <label>
+      Please select your role:
+      <input type="radio" name="role" value="Student"> Student
+      <input type="radio" name="role" value="Teacher"> Teacher<br>
+    </label>
+    <p></p>
+    
+    <div class="clearfix">
+      <a href="index.html" style="color:black" class="btn">Cancel</a>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
